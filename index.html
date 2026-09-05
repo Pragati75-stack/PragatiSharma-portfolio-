@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pragati Sharma — Software Developer, Java & Spring Boot, Full-Stack Development and AI.">
+  <title>Pragati Sharma | Software Developer • Java • AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="Pragati Sharma home">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span>Pragati<span class="dot">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <a class="nav-cta" href="mailto:sharma.pragati0908@gmail.com">Let's talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="grid-bg"></div>
+
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> OPEN TO SOFTWARE ENGINEERING OPPORTUNITIES</div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1>Pragati <span>Sharma</span><br><em>builds with purpose.</em></h1>
+        <p class="hero-description">
+          Software developer focused on <strong>Java, Spring Boot, React, PostgreSQL</strong> and
+          AI-powered applications. I enjoy turning complex problems into clean, scalable products.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore my work <i class="fa-solid fa-arrow-down"></i></a>
+          <a href="assets/Pragati-Sharma-Resume.pdf" class="btn btn-ghost" download>Download résumé <i class="fa-solid fa-download"></i></a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Pragati75-stack" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:sharma.pragati0908@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+          <span class="social-line"></span>
+          <span>New Delhi · India</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-delay">
+        <div class="portrait-frame">
+          <div class="portrait-ring"></div>
+          <img src="assets/pragati-profile.webp" alt="Pragati Sharma" class="portrait">
+          <div class="portrait-shine"></div>
+        </div>
+
+        <div class="floating-card card-stack">
+          <span class="mini-icon"><i class="fa-solid fa-code"></i></span>
+          <div><strong>Full-Stack</strong><small>Developer</small></div>
+        </div>
+
+        <div class="floating-card card-ai">
+          <span class="mini-icon"><i class="fa-solid fa-brain"></i></span>
+          <div><strong>AI + ML</strong><small>Researcher</small></div>
+        </div>
+
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><b>pragati.java</b></div>
+          <pre><code><span class="kw">public</span> <span class="type">class</span> Pragati {
+  <span class="type">String</span> focus = <span class="str">"building"</span>;
+  <span class="type">String</span> stack = <span class="str">"Java + AI"</span>;
+
+  <span class="kw">void</span> <span class="fn">create</span>() {
+    solve(<span class="str">"real problems"</span>);
+    ship(<span class="str">"clean software"</span>);
+  }
+}</code></pre>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue">
+        <span>SCROLL TO EXPLORE</span>
+        <i class="fa-solid fa-arrow-down-long"></i>
+      </a>
+    </section>
+
+    <section class="stats-strip">
+      <div class="stat reveal"><strong data-count="8.1">0</strong><span>/ 10 CGPA</span></div>
+      <div class="stat reveal"><strong data-count="2">0</strong><span>Published papers</span></div>
+      <div class="stat reveal"><strong data-count="2">0</strong><span>Featured projects</span></div>
+      <div class="stat reveal"><strong data-count="2027">0</strong><span>Graduation</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <span class="section-number">01</span>
+        <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Engineer with a<br><span>builder's mindset.</span></h2></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">I'm a B.Tech Computer Science & Engineering student who loves the intersection of <b>backend engineering, product development and AI.</b></p>
+          <p>I work primarily with Java and Spring Boot, building secure REST APIs and data-driven applications. On the frontend, I use React to turn those systems into responsive, useful experiences.</p>
+          <p>I'm also exploring AI, machine learning, NLP and computer vision — and I have published research in IEEE and AIP conferences.</p>
+
+          <div class="about-tags">
+            <span>Problem Solver</span><span>Backend Focused</span><span>AI Curious</span><span>Researcher</span>
+          </div>
+        </div>
+
+        <div class="education-card reveal reveal-delay">
+          <div class="card-label">EDUCATION</div>
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Bachelor of Technology</h3>
+          <p>Computer Science & Engineering</p>
+          <strong>Dronacharya Group of Institution</strong>
+          <div class="edu-meta"><span>2023 — 2027</span><span>CGPA <b>8.1</b></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-heading reveal">
+        <span class="section-number">02</span>
+        <div><p class="eyebrow">EXPERIENCE</p><h2>Where I turn<br><span>ideas into systems.</span></h2></div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">JUL 2026 — PRESENT</div>
+          <div class="timeline-content">
+            <div class="role-top"><div><h3>Software Developer Intern</h3><p>Rosmerta Technologies Limited · On-site</p></div><span class="role-icon"><i class="fa-solid fa-building"></i></span></div>
+            <p>Contributing to a high-concurrency order management system using Java, Spring Boot and PostgreSQL, with an emphasis on reliable processing and data consistency.</p>
+            <div class="chip-row"><span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>JWT</span><span>PostgreSQL</span><span>React</span></div>
+            <ul>
+              <li>Developing RESTful APIs for product, user, order and analytics workflows.</li>
+              <li>Applying transaction management and database locking for concurrent order processing.</li>
+              <li>Building responsive React modules and integrating them with backend APIs.</li>
+              <li>Working with Git, IntelliJ IDEA, PostgreSQL and collaborative development practices.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <span class="section-number">03</span>
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects that show<br><span>how I think.</span></h2></div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-main reveal">
+          <div class="project-glow"></div>
+          <div class="project-top"><span class="project-number">01</span><span class="project-status">AI / FULL-STACK</span></div>
+          <div class="project-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>Zenvyx</h3>
+          <p class="project-sub">AI Career Intelligence & Employability Platform</p>
+          <p>AI-powered platform helping students improve employability through resume intelligence, skill-gap analysis, personalized career guidance, interview preparation and progress tracking.</p>
+          <div class="project-stack"><span>React</span><span>Spring Boot</span><span>PostgreSQL</span><span>AI</span><span>REST APIs</span></div>
+          <div class="project-links">
+            <a href="https://github.com/Pragati75-stack/Zenvyx" target="_blank" rel="noopener">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay">
+          <div class="project-top"><span class="project-number">02</span><span class="project-status">E-COMMERCE</span></div>
+          <div class="project-icon water"><i class="fa-solid fa-droplet"></i></div>
+          <h3>AquaStore</h3>
+          <p class="project-sub">Enterprise Water Marketplace</p>
+          <p>Full-stack marketplace designed around secure authentication, product management, carts, orders, user management and concurrent order processing.</p>
+          <div class="project-stack"><span>Spring Boot</span><span>React</span><span>PostgreSQL</span><span>JWT</span><span>Spring Security</span></div>
+          <div class="project-links">
+            <a href="https://github.com/Pragati75-stack/AquaStore-High-Concurrency-Engine" target="_blank" rel="noopener">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card mini-project reveal">
+          <div class="project-top"><span class="project-number">03</span><span class="project-status">AI RESEARCH</span></div>
+          <div class="project-icon shield"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>NeuroShield AI</h3>
+          <p>Explainable ML direction for stroke risk prediction and personalized healthcare recommendations.</p>
+          <div class="project-stack"><span>Python</span><span>ML</span><span>NLP</span></div>
+          <div class="project-links"><a href="https://github.com/Pragati75-stack/NeuroShield-AI" target="_blank" rel="noopener">Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+        </article>
+
+        <article class="project-card mini-project github-card reveal reveal-delay">
+          <div class="github-mark"><i class="fa-brands fa-github"></i></div>
+          <p class="eyebrow">MORE ON GITHUB</p>
+          <h3>9 public repositories</h3>
+          <p>Explore experiments, frontend builds and full-stack work.</p>
+          <a class="text-link" href="https://github.com/Pragati75-stack?tab=repositories" target="_blank" rel="noopener">Open GitHub <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <span class="section-number">04</span>
+        <div><p class="eyebrow">TECHNICAL TOOLKIT</p><h2>Tools I use to<br><span>ship the work.</span></h2></div>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-cloud reveal">
+          <span class="skill hot">Java</span><span class="skill">Spring Boot</span><span class="skill">Spring Security</span>
+          <span class="skill">React</span><span class="skill">JavaScript</span><span class="skill hot">PostgreSQL</span>
+          <span class="skill">Python</span><span class="skill">C++</span><span class="skill">REST APIs</span>
+          <span class="skill">JWT</span><span class="skill">Node.js</span><span class="skill">Vite</span>
+          <span class="skill">Tailwind CSS</span><span class="skill">MySQL</span><span class="skill">SQLite</span>
+          <span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">Postman</span>
+          <span class="skill">IntelliJ IDEA</span><span class="skill">OpenCV</span><span class="skill">NLP</span>
+        </div>
+
+        <div class="skill-bars reveal reveal-delay">
+          <div class="skill-bar"><div><span>Backend Engineering</span><b>Java · Spring Boot</b></div><i style="--value:92%"></i></div>
+          <div class="skill-bar"><div><span>Frontend Development</span><b>React · JS</b></div><i style="--value:82%"></i></div>
+          <div class="skill-bar"><div><span>Databases</span><b>PostgreSQL · SQL</b></div><i style="--value:86%"></i></div>
+          <div class="skill-bar"><div><span>AI / ML</span><b>Python · NLP · OpenCV</b></div><i style="--value:72%"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <div class="section-heading reveal">
+        <span class="section-number">05</span>
+        <div><p class="eyebrow">RESEARCH & PUBLICATION</p><h2>Engineering beyond<br><span>the classroom.</span></h2></div>
+      </div>
+
+      <div class="research-grid">
+        <article class="paper-card reveal">
+          <span class="paper-type">IEEE · MAIN AUTHOR</span>
+          <div class="paper-icon"><i class="fa-solid fa-link"></i></div>
+          <h3>Synergy of Blockchain and Artificial Intelligence for Adaptive Cybersecurity</h3>
+          <p>A decentralized intelligence framework combining Blockchain and Artificial Intelligence for adaptive cybersecurity.</p>
+          <a href="https://doi.org/10.1109/ic-aida68291.2026.11564174" target="_blank" rel="noopener">DOI: 10.1109/ic-aida68291.2026.11564174 <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+
+        <article class="paper-card reveal reveal-delay">
+          <span class="paper-type">AIP · CO-AUTHOR</span>
+          <div class="paper-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h3>Customer Segmentation for Market Analysis using Data Mining</h3>
+          <p>Research work focused on customer segmentation and market analysis using data-mining techniques.</p>
+          <a href="https://doi.org/10.1063/5.0286792" target="_blank" rel="noopener">DOI: 10.1063/5.0286792 <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-panel reveal">
+        <div class="contact-orb"></div>
+        <p class="eyebrow">HAVE A ROLE OR PROJECT?</p>
+        <h2>Let's build something<br><span>worth shipping.</span></h2>
+        <p>I'm interested in software engineering, backend, full-stack and AI opportunities where I can learn fast and contribute meaningfully.</p>
+        <div class="contact-actions">
+          <a href="mailto:sharma.pragati0908@gmail.com" class="btn btn-primary">Email me <i class="fa-solid fa-paper-plane"></i></a>
+          <a href="https://github.com/Pragati75-stack" target="_blank" rel="noopener" class="btn btn-dark">GitHub <i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="contact-email">sharma.pragati0908@gmail.com</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>Pragati<span class="dot">.</span></span></a></div>
+    <p>Designed & built with HTML, CSS & JavaScript · © <span id="year"></span> Pragati Sharma</p>
+    <a href="#home" class="footer-up" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
